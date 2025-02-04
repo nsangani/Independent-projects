@@ -4,7 +4,7 @@
 #SBATCH -o filename_%j.txt
 #SBATCH -e filename_%j.err
 #SBATCH --mail-type=fail
-#SBATCH --mail-user=cpdong@iu.edu
+#SBATCH --mail-user=nsangani@iu.edu
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=8
 #SBATCH --mem=90G
